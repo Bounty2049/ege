@@ -5,4 +5,4 @@ while x > 0:
     s.append(x % 6)
     x //= 6
 s = s[::-1]
-print(s.count(0))
+print(s.count('0'))
